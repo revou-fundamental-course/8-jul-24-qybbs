@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif; /* Mengatur jenis huruf untuk seluruh halaman */
+  background-color: #f8f9fa; /* Mengatur warna latar belakang halaman */
+  display: flex; /* Mengatur layout menjadi flexbox */
+  flex-direction: column; /* Mengatur arah flex menjadi kolom */
+  align-items: center; /* Mengatur item flex agar berada di tengah secara horizontal */
+  justify-content: center; /* Mengatur item flex agar berada di tengah secara vertikal */
+  min-height: 100vh; /* Mengatur tinggi minimum halaman menjadi 100% dari tinggi viewport */
+  margin: 0; /* Menghilangkan margin default */
+}
+.container {
+  background-color: #fff; /* Mengatur warna latar belakang container */
+  padding: 20px; /* Mengatur padding di dalam container */
+  border-radius: 8px; /* Mengatur sudut-sudut container menjadi melengkung */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Mengatur bayangan di sekitar container */
+  max-width: 600px; /* Mengatur lebar maksimum container */
+  width: 100%; /* Mengatur lebar container agar memenuhi lebar elemen induk */
+  margin-top: 20px; /* Mengatur margin atas container */
+  margin-bottom: 20px; /* Mengatur margin bawah container */
+}
+.form-container {
+  background-color: #e2e6e9; /* Mengatur warna latar belakang form */
+  padding: 20px; /* Mengatur padding di dalam form */
+}
+.container h2 {
+  margin-bottom: 20px; /* Mengatur margin bawah heading */
+}
+.form-container label {
+  display: block; /* Mengatur label menjadi elemen block */
+  margin-bottom: 10px; /* Mengatur margin bawah label */
+}
+.form-container input[type="radio"] {
+  margin-right: 10px; /* Mengatur margin kanan input radio */
+  margin-bottom: 20px; /* Mengatur margin bawah input radio */
+}
+.form-container input[type="text"],
+.form-container input[type="number"] {
+  width: 80%; /* Mengatur lebar input text dan number */
+  padding: 10px; /* Mengatur padding di dalam input */
+  margin-bottom: 20px; /* Mengatur margin bawah input */
+  border: 1px solid #ced4da; /* Mengatur border input */
+  border-radius: 4px; /* Mengatur sudut-sudut input menjadi melengkung */
+}
+.form-container button {
+  padding: 10px 20px; /* Mengatur padding di dalam button */
+  border: none; /* Menghilangkan border button */
+  border-radius: 4px; /* Mengatur sudut-sudut button menjadi melengkung */
+  cursor: pointer; /* Mengatur cursor menjadi pointer saat dihover */
+}
+#result-container button {
+  padding: 10px 20px; /* Mengatur padding di dalam button */
+  border: none; /* Menghilangkan border button */
+  border-radius: 4px; /* Mengatur sudut-sudut button menjadi melengkung */
+  cursor: pointer; /* Mengatur cursor menjadi pointer saat dihover */
+}
+.btn-calculate {
+  background-color: #007bff; /* Mengatur warna latar belakang button calculate */
+  color: #fff; /* Mengatur warna teks button calculate */
+  margin-right: 10px; /* Mengatur margin kanan button calculate */
+}
+.btn-reset {
+  background-color: #6c757d; /* Mengatur warna latar belakang button reset */
+  color: #fff; /* Mengatur warna teks button reset */
+}
+.btn-kembali {
+  background-color: #6c757d; /* Mengatur warna latar belakang button kembali */
+  color: #fff; /* Mengatur warna teks button kembali */
+  margin-top: 20px; /* Mengatur margin atas button kembali */
+}
+#result-container {
+  text-align: center; /* Mengatur teks menjadi rata tengah */
+  background-color: #fff; /* Mengatur warna latar belakang result container */
+  padding: 20px; /* Mengatur padding di dalam result container */
+  border-radius: 8px; /* Mengatur sudut-sudut result container menjadi melengkung */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Mengatur bayangan di sekitar result container */
+}
+#result-container h3 {
+  margin: 10px 0; /* Mengatur margin vertikal heading di result container */
+}
+.status-overweight {
+  color: #dc3545; /* Mengatur warna teks status overweight */
+}
+.status-normal {
+  color: #28a745; /* Mengatur warna teks status normal */
+}
+.status-underweight,
+.status-obese {
+  color: #ffc107; /* Mengatur warna teks status underweight dan obese */
+}
+
+table {
+  border-collapse: collapse; /* Mengatur agar border table tidak terpisah */
+  width: 100%; /* Mengatur lebar table agar memenuhi lebar elemen induk */
+}
+
+table td,
+table th {
+  border: 1px solid #ddd; /* Mengatur border cell table */
+  padding: 8px; /* Mengatur padding di dalam cell table */
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Mengatur warna latar belakang baris genap */
+}
+
+table tr:hover {
+  background-color: #ddd; /* Mengatur warna latar belakang baris saat dihover */
+}
+
+table th {
+  padding-top: 12px; /* Mengatur padding atas heading table */
+  padding-bottom: 12px; /* Mengatur padding bawah heading table */
+  text-align: left; /* Mengatur teks heading table menjadi rata kiri */
+  background-color: #007bff; /* Mengatur warna latar belakang heading table */
+  color: white; /* Mengatur warna teks heading table */
+}
